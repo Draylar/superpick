@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "superpick",
+  "version": "${version}",
+  "name": "Superpick",
+  "description": "Shift & mine with a Pickaxe to get Hammer functionality!",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {
+    "issues": "https://github.com/Draylar/superpick"
+  },
+  "license": "MIT",
+  "icon": "assets/superpick/icon.png",
+  "environment": "*",
+  "mixins": [
+    "superpick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "magna": "*"
+  }
+}
